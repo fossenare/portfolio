@@ -1,0 +1,88 @@
+
+.container{
+    width: 1000px; 
+    margin: 0 auto;
+}
+
+img{
+    width: 200px; 
+    border-radius: 20px;
+    transition: 0.3s;
+    transform: scale(1);
+}
+
+h1{
+    font-size: 100px;
+    color: #2fe63b;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h6{
+    font-size: 50px;
+    color:aquamarine;
+} 
+
+li{
+    color:yellow;
+}
+
+.three{
+    color:yellow;
+}
+
+.menu{
+    background-color: darkslategray;
+} 
+
+/* --- Home ----*/
+.home{
+    background-color: darkslategray;
+}
+.skills{
+    background-color: darkslategray;
+}
+.resume{
+    background-color: darkslategrey;
+}
+.image{
+    width: 30px;
+}
+.my{
+    width: 100%;
+    border-radius: 2px;
+    transition: 0.3s;
+    transform: scale(1);
+}
+
+.works{
+    background-color: darkslategrey;
+}
+.contacts{
+    background-color: darkslategray;
+}
+.mister_p{
+    color: green;
+}
+.mister_p span{
+    color:aqua
+}
+a:hover{
+    color:red;
+    transition: 0.3s;
+}
+img:hover{
+    border-radius: 0%;
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+.contacts__title{
+    width: 110px;
+    transition: 0.3s;
+    transform: rotate(0deg);   
+}
+.contacts__title:hover{
+    transform: rotate(90deg);   
+}
