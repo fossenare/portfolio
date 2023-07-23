@@ -84,5 +84,11 @@ img:hover{
     transform: rotate(0deg);   
 }
 .contacts__title:hover{
-    transform: rotate(90deg);   
+    transform: rotate(360deg);   
+}
+.superpuper:hover{
+    width: 110px;
+    transition: 0.3s;
+    transform: scale(1.2);
+
 }
