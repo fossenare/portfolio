@@ -92,3 +92,21 @@ img:hover{
     transform: scale(1.2);
 
 }
+.python{
+    transition: 0.3s;
+    transform: scale(1);
+}
+.python_active{
+    transition: 0.3s;
+    transform: scale(1.1);
+background-color: #2fe63b;
+}
+.trenirovka{
+    transition: 0.3s;
+    transform: scale(1.0);
+}
+.trenirovka_active{
+    transition: 0.3s;
+    transform: scale(1.1);
+background-color: #2fe63b;
+}
