@@ -110,3 +110,15 @@ background-color: #2fe63b;
     transform: scale(1.1);
 background-color: #2fe63b;
 }
+
+
+.event__square{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #2fe63b;
+}
+
+.event__square-active{
+    background-color: red;
+}

@@ -41,6 +41,10 @@ python.addEventListener('click', function () {
 })
 
 
+
+
+
+
 let count = 0
 function recursuon() {
 	if (count === 10) { 
@@ -52,6 +56,49 @@ function recursuon() {
 }
 
 recursuon()
+
+let worksText = document.querySelector('.works__text')
+// worksText.innerHTML = 'hello'
+
+
+worksText.addEventListener('click', function () { 
+  if (worksText.innerHTML.toLowerCase() === 'что нибудь') {
+    worksText.innerHTML = 'hello'
+  } else {
+    worksText.innerHTML = 'то нибудь'
+  }
+})
+
+console.log(worksText.innerHTML.toLowerCase())
+console.log(worksText.innerHTML.toUpperCase())
+
+
+let inputText = document.querySelector('.input__text')
+
+inputText.addEventListener('keyup', function (event) {
+  let value = event.target.value
+  console.log(value);
+})
+
+
+// document.addEventListener('mousemove', function (event) {
+//     console.log('mouse move');
+// })
+
+let eventSquare = document.querySelector('.event__square')
+
+
+//eventSquare.addEventListener('mouseenter', function () {
+//   console.log('курсор над объектом');
+// })
+
+//eventSquare.addEventListener('mouseleave', function () {
+//   console.log('курсор снят с объекта ');
+// })
+
+
+
+
 
 
 
