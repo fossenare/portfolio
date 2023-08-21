@@ -1,4 +1,14 @@
 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;    
+}
+
 .container{
     width: 1000px; 
     margin: 0 auto;
@@ -25,22 +35,57 @@ h6{
     color:aquamarine;
 } 
 
-li{
-    color:yellow;
-}
 
-.three{
-    color:yellow;
-}
 
 .menu{
     background-color: darkslategray;
 } 
 
-/* --- Home ----*/
-.home{
-    background-color: darkslategray;
+
+
+/* Header */
+/*--- Menu ---*/
+
+.header{
+ background-color:  #252527;
+}  
+
+.header-menu{
+    display: flex;
+    list-style: none;
+    padding: 20px 0;
 }
+
+
+.header-menu__link{
+    margin-right: 30px;
+    letter-spacing: 2px;
+    color: white;
+
+    cursor: pointer;
+}
+
+.header-menu__link:hover{
+    color: #4f93e5;
+    transition: 0.3s;
+}
+
+
+/* --- First-screen ----*/
+
+.first-screen{
+  background-color: #252527;  
+  padding: 300px 0;
+} 
+
+.first-screen__body{
+    display: flex;
+}
+
+
+
+/* --- Skills --- */
+
 .skills{
     background-color: darkslategray;
 }
@@ -122,3 +167,7 @@ background-color: #2fe63b;
 .event__square-active{
     background-color: red;
 }
+
+
+
+

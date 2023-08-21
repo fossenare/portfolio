@@ -85,7 +85,7 @@ inputText.addEventListener('keyup', function (event) {
 //     console.log('mouse move');
 // })
 
-let eventSquare = document.querySelector('.event__square')
+//let eventSquare = document.querySelector('.event__square')
 
 
 //eventSquare.addEventListener('mouseenter', function () {
@@ -95,11 +95,15 @@ let eventSquare = document.querySelector('.event__square')
 //eventSquare.addEventListener('mouseleave', function () {
 //   console.log('курсор снят с объекта ');
 // })
+//let kvadrat__menyal  = true 
+//const kvadrat = document.querySelector('.kvadrat')
+//kvadrat.addEventListener('click', function (){
+//if (kvadrat__menyal === true)
+//kvadrat.classList.add(kvadrat__active)
+//});  else { }
+  //kvadrat.add.EventListener('click', function() { 
 
-
-
-
-
-
-
+     
+//})
+  
 
