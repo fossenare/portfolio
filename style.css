@@ -14,17 +14,6 @@ body{
     margin: 0 auto;
 }
 
-img{
-    width: 200px; 
-    border-radius: 20px;
-    transition: 0.3s;
-    transform: scale(1);
-}
-
-h1{
-    font-size: 100px;
-    color: #2fe63b;
-}
 
 h2{
     font-size: 30px;
@@ -80,7 +69,66 @@ h6{
 
 .first-screen__body{
     display: flex;
+
+    justify-content: space-between;
+    align-items: center;
 }
+
+
+/* =100 */
+/* #text-id-p{
+    color: yellow;
+}
+
+/* 10 + 10 = 20 */
+/* .first-screen__info .text-class-p{
+    color: red;
+} */
+
+/* вес 10 + 1 = 11*/
+.first-screen__info p{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+} 
+
+.first-screen__info h1{
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 10px;
+} 
+
+.first-screen__info h2{
+    font-size: 27px;
+    color: #4f93e5;
+}
+
+
+.first-screen__image{
+    width: 350px;
+    height: 420px;
+    transition: 0.3s;
+    transform: scale(1);
+
+    border: 6px solid #4f93e5;
+}
+
+.first-screen__image:hover{
+    border-radius: 0%;
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+.first-screen__image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
 
 
 
@@ -118,11 +166,7 @@ a:hover{
     color:red;
     transition: 0.3s;
 }
-img:hover{
-    border-radius: 0%;
-    transition: 0.3s;
-    transform: scale(1.2);
-}
+
 .contacts__title{
     width: 110px;
     transition: 0.3s;
