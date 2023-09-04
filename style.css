@@ -1,61 +1,58 @@
-
-
-
-.white__text{
-color: #fff;
+.white__text {
+    color: #fff;
 }
 
-.container__color{
+.container__color {
     background-color: #252527;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    font-family: 'Lato', sans-serif;    
+body {
+    font-family: 'Lato', sans-serif;
 }
 
-.container{
-    width: 1000px; 
+.container {
+    width: 1000px;
     margin: 0 auto;
 }
 
 
-h2{
+h2 {
     font-size: 30px;
 }
 
-h6{
+h6 {
     font-size: 50px;
-    color:aquamarine;
-} 
+    color: aquamarine;
+}
 
 
 
-.menu{
+.menu {
     background-color: darkslategray;
-} 
+}
 
 
 
 /* Header */
 /*--- Menu ---*/
 
-.header{
- background-color:  #252527;
-}  
+.header {
+    background-color: #252527;
+}
 
-.header-menu{
+.header-menu {
     display: flex;
     list-style: none;
     padding: 20px 0;
 }
 
 
-.header-menu__link{
+.header-menu__link {
     margin-right: 30px;
     letter-spacing: 2px;
     color: white;
@@ -63,7 +60,7 @@ h6{
     cursor: pointer;
 }
 
-.header-menu__link:hover{
+.header-menu__link:hover {
     color: #4f93e5;
     transition: 0.3s;
 }
@@ -71,12 +68,12 @@ h6{
 
 /* --- First-screen ----*/
 
-.first-screen{
-  background-color: #252527;  
-  padding: 300px 0;
-} 
+.first-screen {
+    background-color: #252527;
+    padding: 300px 0;
+}
 
-.first-screen__body{
+.first-screen__body {
     display: flex;
 
     justify-content: space-between;
@@ -95,26 +92,26 @@ h6{
 } */
 
 /* вес 10 + 1 = 11*/
-.first-screen__info p{
+.first-screen__info p {
     color: #fff;
     font-size: 16px;
     margin-bottom: 10px;
     text-align: center;
-} 
+}
 
-.first-screen__info h1{
+.first-screen__info h1 {
     color: #fff;
     font-size: 45px;
     margin-bottom: 10px;
-} 
+}
 
-.first-screen__info h2{
+.first-screen__info h2 {
     font-size: 27px;
     color: #4f93e5;
 }
 
 
-.first-screen__image{
+.first-screen__image {
     width: 350px;
     height: 420px;
     transition: 0.3s;
@@ -123,13 +120,13 @@ h6{
     border: 6px solid #4f93e5;
 }
 
-.first-screen__image:hover{
+.first-screen__image:hover {
     border-radius: 0%;
     transition: 0.3s;
     transform: scale(1.2);
 }
 
-.first-screen__image img{
+.first-screen__image img {
     width: 100%;
     height: 100%;
 }
@@ -139,74 +136,140 @@ h6{
 /* --- Skills --- */
 
 
-.image{
+.image {
     width: 30px;
 }
-.my{
+
+.my {
     width: 100%;
     border-radius: 2px;
     transition: 0.3s;
     transform: scale(1);
 }
 
-.works{
+.works {
     background-color: darkslategrey;
 }
-.contacts{
+
+.contacts {
     background-color: darkslategray;
 }
-.mister_p{
+
+.mister_p {
     color: green;
 }
-.mister_p span{
-    color:aqua
+
+.mister_p span {
+    color: aqua
 }
-a:hover{
-    color:red;
+
+a:hover {
+    color: red;
     transition: 0.3s;
 }
 
-.contacts__title{
+.contacts__title {
     width: 110px;
     transition: 0.3s;
-    transform: rotate(0deg);   
+    transform: rotate(0deg);
 }
-.contacts__title:hover{
-    transform: rotate(360deg);   
+
+.contacts__title:hover {
+    transform: rotate(360deg);
 }
-.superpuper:hover{
+
+.superpuper:hover {
     width: 110px;
     transition: 0.3s;
     transform: scale(1.2);
 
 }
-.python{
+
+.python {
     transition: 0.3s;
     transform: scale(1);
 }
-.python_active{
+
+.python_active {
     transition: 0.3s;
     transform: scale(1.1);
-background-color: #2fe63b;
+    background-color: #2fe63b;
 }
-.trenirovka{
+
+.trenirovka {
     transition: 0.3s;
     transform: scale(1.0);
 }
-.trenirovka_active{
+
+.trenirovka_active {
     transition: 0.3s;
     transform: scale(1.1);
-background-color: #2fe63b;
+    background-color: #2fe63b;
 }
 
 /* Skills (html,redux, and ....*/
 
-.skills{
-background-color: #252527;
-text-align: center;
-;
+.skills {
+    background-color: #252527;
+}
+.skills-title{}
+
+
+.skills-title__decor{}
+
+.title{
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.title__decor{
+    display:block; 
+    width: 100px;
+    height:2px;
+    background-color: #4f93e5;
+    margin: 10px auto 0 auto;
 }
 
 
 
+/* Resume */
+.resume{
+    background-color: #252527;
+}
+.resume-title{}
 
+
+.resume-title__decor{}
+
+
+
+
+
+
+
+
+
+
+/* Page test styles */
+
+.d19 {
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: #53BA88;
+    position: relative;
+    top: -49px;
+}
+
+.d19:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -50px;
+    top: 50px;
+    border: 50px solid transparent;
+    border-top-color: #53BA88;
+}
