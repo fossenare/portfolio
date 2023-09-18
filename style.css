@@ -33,7 +33,7 @@ h6 {
 
 
 .menu {
-    background-color: darkslategray;
+    background-color: #252527;
 }
 
 
@@ -148,11 +148,11 @@ h6 {
 }
 
 .works {
-    background-color: darkslategrey;
+    background-color: #252527;
 }
 
 .contacts {
-    background-color: darkslategray;
+    background-color: #252527;
 }
 
 .mister_p {
@@ -212,40 +212,53 @@ a:hover {
 .skills {
     background-color: #252527;
 }
-.skills-title{}
+
+.skills-title {}
 
 
-.skills-title__decor{}
+.skills-title__decor {}
 
-.title{
+.title {
     text-align: center;
     font-size: 36px;
     color: #fff;
     letter-spacing: 2px;
 }
 
-.title__decor{
-    display:block; 
+.title__decor {
+    display: block;
     width: 100px;
-    height:2px;
+    height: 2px;
     background-color: #4f93e5;
     margin: 10px auto 0 auto;
 }
 
+.skills-block__rhombus {
+    width: 0;
+    height: 0;
+    border: 100px solid transparent;
+    border-bottom-color: #53BA88;
+    position: relative;
+    top: -98px;
+}
+
+.skills-block__subtitle {
+   margin: 20px 20px 0px -25px;
+   color: blue;
+}
 
 
 /* Resume */
-.resume{
+.resume {
     background-color: #252527;
 }
-.resume-title{}
+
+.resume-title {}
 
 
-.resume-title__decor{}
+.resume-title__decor {}
 
-
-
-
+.skills__block
 
 
 
