@@ -9,6 +9,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -210,7 +211,7 @@ a:hover {
 /* Skills (html,redux, and ....*/
 
 .skills {
-    background-color: #252527;
+    background-color: #1f1f20;
 }
 
 .skills-title {}
@@ -233,18 +234,46 @@ a:hover {
     margin: 10px auto 0 auto;
 }
 
+.skills-block {
+    width: 300px;
+    height: 300px;
+}
+
+/* #skills-block-id{
+    background-color: red;
+} */
+
 .skills-block__rhombus {
-    width: 0;
-    height: 0;
-    border: 100px solid transparent;
-    border-bottom-color: #53BA88;
-    position: relative;
-    top: -98px;
+    width: 110px;
+    height: 110px;
+    background-color: #252527;
+    margin: 0 auto;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-block__icon {
+    transform: rotate(-45deg);
+    width: 40px;
 }
 
 .skills-block__subtitle {
-   margin: 20px 20px 0px -25px;
-   color: blue;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skills-block__text{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
 }
 
 
@@ -258,31 +287,40 @@ a:hover {
 
 .resume-title__decor {}
 
-.skills__block
-
-
-
-
-
-
-/* Page test styles */
-
-.d19 {
-    width: 0;
-    height: 0;
-    border: 50px solid transparent;
-    border-bottom-color: #53BA88;
-    position: relative;
-    top: -49px;
+/* typescript () */
+.skills-block_typescript {
+    width: 300px;
+    height: 300px;
 }
 
-.d19:after {
-    content: "";
-    width: 0;
-    height: 0;
-    position: absolute;
-    left: -50px;
-    top: 50px;
-    border: 50px solid transparent;
-    border-top-color: #53BA88;
+
+.skills-block__rhombus__typescript {
+    width: 110px;
+    height: 110px;
+    background-color: #252527;
+    margin: 0 auto;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-block__subtitle__typescript {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skills-block__text__typescript{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.typescript{
+    position: relative;
 }
